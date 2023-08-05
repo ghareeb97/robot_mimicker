@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/darwish/project_ws/devel/lib/python3/dist-packages",
+        "/home/darwish/robotics_ws/devel/lib/python3/dist-packages",
+        "/home/darwish/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/darwish/project_ws/devel/lib/python3/dist-packages",
+        "/home/darwish/robotics_ws/devel/lib/python3/dist-packages",
+        "/home/darwish/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
