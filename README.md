@@ -15,17 +15,14 @@ To clone the **robot\_mimicker\_pkg** repository to your `catkin_ws` directory, 
     
 2.  Navigate to your `catkin_ws/src` directory:
     
-    bashCopy code
-    
+```bash
     `cd ~/catkin_ws/src`
-    
+```
 3.  Clone the repository using `git`:
     
-    bashCopy code
-    
+```bash
     `git clone https://github.com/ghareeb97/robot_mimicker_pkg.git`
-    
-
+```
 Building the Package
 --------------------
 
@@ -33,31 +30,19 @@ After cloning the repository, navigate to your `catkin_ws` directory and build t
 
 1.  Navigate to your `catkin_ws` directory:
     
-    bashCopy code
-    
+```bash
     `cd ~/catkin_ws`
-    
+```    
 2.  Build the workspace:
     
-    bashCopy code
-    
+```bash
     `catkin_make`
-    
+```    
 3.  Source the workspace:
     
-    bashCopy code
-    
+```bash
     `source ~/catkin_ws/devel/setup.bash`
-    
-
-Package Structure
------------------
-
-The repository's structure is as follows:
-
-cssCopy code
-
-`catkin_ws/ ├── src/ │   ├── robot_mimicker_pkg/ │   │   ├── launch/ │   │   │   └── robot_mimic.launch │   │   ├── scripts/ │   │   │   └── robot_mimicker.py │   │   └── CMakeLists.txt └── README.md`
+```    
 
 Launching the Package
 ---------------------
@@ -68,22 +53,19 @@ To launch the **robot\_mimic.launch** file, which loads various components and c
     
 2.  Navigate to your `catkin_ws` directory:
     
-    bashCopy code
-    
+```bash
     `cd ~/catkin_ws`
-    
+```    
 3.  Source your ROS environment if you haven't already:
     
-    bashCopy code
-    
+```bash
     `source ~/catkin_ws/devel/setup.bash`
-    
+```    
 4.  Launch the **robot\_mimic.launch** file using the `roslaunch` command:
     
-    bashCopy code
-    
+```bash
     `roslaunch robot_mimicker_pkg robot_mimic.launch`
-    
+```    
 
 This will initiate the launching process, which includes setting up controllers, loading configurations, and starting the **robot\_mimicker.py** node.
 
